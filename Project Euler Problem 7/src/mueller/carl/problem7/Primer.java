@@ -76,7 +76,6 @@ public class Primer {
 				&& ((n <= 13) || (millerRabin(13, n)))
 				&& ((n <= 17) || (millerRabin(17, n)))
 				&& ((n <= 19) || (millerRabin(19, n)))
-				&& ((n <= 23) || (millerRabin(23, n)))
 				&& ((n <= 23) || (millerRabin(23, n)))){
 			return true;
 		} else {
