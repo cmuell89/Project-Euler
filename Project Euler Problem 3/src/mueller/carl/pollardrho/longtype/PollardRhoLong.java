@@ -91,8 +91,8 @@ public class PollardRhoLong {
 	 * if it is not prime, it is passed through the rho() method whose return
 	 * results is reassigned to divisor. This new divisor results is checked for
 	 * primeness. If it is prime, then the original n value divided by the
-	 * current divisor is looped through the factor method recursively. If is it
-	 * is not prime, it is recursively looped through the factor method
+	 * current divisor is looped through the factor method. If is it
+	 * is not prime, it is looped through the factor method
 	 * unaltered.
 	 * 
 	 * Any time a factor is determined to be prime, it is added to an ArrayList
